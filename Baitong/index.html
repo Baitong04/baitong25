@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SUM</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(to bottom, #e40303, #f57c00); /* ไล่สีแดงส้ม */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .sum-text {
+      font-size: 120px;
+      font-weight: bold;
+      font-family: 'Georgia', serif;
+      color: #fcd76a; /* สีทอง */
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .sum-text:hover {
+      opacity: 0.85;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sum-text" onclick="goToMain()">SUM</div>
+
+  <script>
+    function goToMain() {
+      window.location.href = "main.html";
+    }
+  </script>
+
+</body>
+</html>

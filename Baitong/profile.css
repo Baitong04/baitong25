@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Tahoma', sans-serif;
+    background-color: #e2a684;
+  }
+  
+  .header {
+    background: linear-gradient(to bottom, #ff7300, #e2a684);
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .header h1 {
+    color: #ffd966;
+    font-size: 60px;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 50px;
+  }
+  
+  .profile-img img {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .profile-info {
+    background-color: #ffedc1;
+    padding: 30px;
+    border-radius: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  

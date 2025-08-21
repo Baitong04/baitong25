@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: 'Tahoma', sans-serif;
+    background-color: #e2a684;
+  }
+  
+  .header {
+    background: linear-gradient(to bottom, #ff7300, #e2a684);
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .header h1 {
+    color: #ffd966;
+    font-size: 60px;
+    margin: 0;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #e2a684;
+  }
+  
+  .certificate img {
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* หากคุณใช้แยกรูปให้เปิดบรรทัดนี้แทน และลบ .certificate img ด้านบน */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  

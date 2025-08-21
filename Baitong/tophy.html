@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #d99c7e;
+      font-family: 'Georgia', serif;
+    }
+
+    header {
+      background-color: #ff6600;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 60px;
+      color: #ffe568;
+      margin: 0;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 60px;
+      padding: 50px 80px;
+      align-items: center;
+      justify-items: center;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .contact-item img {
+      width: 80px;
+      height: 80px;
+    }
+
+    .contact-item span {
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .footer {
+      background-color: red;
+      height: 50px;
+      position: relative;
+    }
+
+    .sum-link {
+      position: absolute;
+      bottom: 5px;
+      right: 20px;
+      font-size: 50px;
+      font-weight: bold;
+      color: #ffe568;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ส่วนหัว -->
+  <header>
+    <h1>Contact</h1>
+  </header>
+
+  <!-- เนื้อหา contact -->
+  <div class="container">
+    <div class="contact-item">
+      <img src="i.1.jpg" alt="Instagram">
+      <span>bxitong04</span>
+    </div>
+    <div class="contact-item">
+      <img src="4.jpg" alt="LINE">
+      <span>baitong043</span>
+    </div>
+    <div class="contact-item">
+      <img src="3.jpg" alt="Facebook">
+      <span>นันท์ชพร ทองลอย</span>
+    </div>
+    <div class="contact-item">
+      <img src="p.2.jpg" alt="WhatsApp">
+      <span>096-904-3718</span>
+    </div>
+  </div>
+
+  <!-- แถบล่าง -->
+  <div class="footer">
+    <a class="sum-link" href="main.html">SUM</a>
+  </div>
+
+</body>
+</html>

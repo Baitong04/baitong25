@@ -1,0 +1,18 @@
+
+/* ตั้งค่าพื้นหลังเป็นไล่ระดับสีแดง -> ส้ม */
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ff1a1a, #ff6600);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ข้อความตรงกลาง */
+.center-text {
+    font-family: 'Georgia', serif;
+    font-size: 120px;
+    font-weight: bold;
+    color: #ffcc66; /* สีเหลืองอ่อนทอง */
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #d99c7e;
+    }
+
+    /* แถบเมนู */
+    nav {
+      background-color: #ff6600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #ffea61;
+      font-size: 50px;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      position: relative;
+      padding: 40px;
+    }
+
+    .profile-img {
+      width: 330px;
+      border-radius: 20px;
+    }
+
+    .text {
+      position: absolute;
+      font-family: Georgia, serif;
+      font-weight: bold;
+    }
+
+    .hello1 {
+      top: 50px;
+      left: 55%;
+      font-size: 60px;
+      color: red;
+    }
+
+    .hi1 {
+      top: 200px;
+      left: 47%;
+      font-size: 28px;
+      color: red;
+      transform: rotate(-20deg);
+    }
+
+    .hello2 {
+      top: 280px;
+      left: 65%;
+      font-size: 38px;
+      color: #ff7a00;
+    }
+
+    .hi2 {
+      top: 60px;
+      right: 100px;
+      font-size: 26px;
+      color: #ffe568;
+      transform: rotate(20deg);
+    }
+
+    .hello3 {
+      bottom: 120px;
+      right: 100px;
+      font-size: 30px;
+      color: #ffe568;
+    }
+
+    .hi3 {
+      bottom: 70px;
+      left: 60%;
+      font-size: 34px;
+      color: #ff7a00;
+      transform: rotate(-10deg);
+    }
+
+    /* ลิงก์ SUM */
+    .sum-link {
+      position: fixed;
+      bottom: 5px;
+      right: 20px;
+      font-size: 60px;
+      color: #ffe568;
+      font-weight: bold;
+      text-decoration: none;
+      z-index: 100;
+    }
+
+    .footer {
+      height: 30px;
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- เมนู -->
+  <nav>
+    <a href="#">Home</a>
+  </nav>
+
+  <!-- เนื้อหา -->
+  <div class="container">
+    <img class="profile-img" src="Baitong.jpg" alt="Profile Image">
+
+    <div class="text hello1">Hello</div>
+    <div class="text hi1">Hi</div>
+    <div class="text hello2">Hello</div>
+    <div class="text hi2">Hi</div>
+    <div class="text hello3">Hello</div>
+    <div class="text hi3">Hi</div>
+  </div>
+
+  <!-- ลิงก์ SUM -->
+  <a class="sum-link" href="main.html">SUM</a>
+
+  <!-- แถบล่าง -->
+  <div class="footer"></div>
+
+</body>
+</html>
